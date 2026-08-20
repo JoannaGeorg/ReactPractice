@@ -6,9 +6,9 @@ This is a practice repository for learning React.js
 
 To Do:
 - [x] Set up React using Vite
-- [ ] Create a basic React application
-- [ ] Create reusable components
-- [ ] Practise JSX
-- [ ] Create parent/child components
-- [ ] Apply styling
-- [ ] Organize the project
+- [x] Create a basic React application
+- [x] Create reusable components
+- [x] Practise JSX
+- [x] Create parent/child components
+- [x] Apply styling
+- [x] Organize the project
