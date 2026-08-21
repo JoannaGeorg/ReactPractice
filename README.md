@@ -17,8 +17,8 @@ To Do:
 
 To Do:
 - [ ] Build the Travel Journal project
-- [ ] Create reusable components
-- [ ] Pass data using props
-- [ ] Render lists using .map()
-- [ ] Use the key prop
-- [ ] Pass objects through props
+- [x] Create reusable components
+- [x] Pass data using props
+- [x] Render lists using .map()
+- [x] Use the key prop
+- [x] Pass objects through props
