@@ -10,7 +10,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 
-  max-width: 600px;
+  max-width: 800px;
 
   background-color: rgb(190, 25, 25);
   flex-grow: 1;
@@ -29,4 +29,32 @@ body {
   font-weight: 400px;
   padding: 20px;
   margin-right: auto;
+}
+
+.journel-container {
+  display: flex;
+  max-width: 800px;
+  background-color: beige;
+
+  padding: 20px 0px;
+
+  margin-left: auto;
+  margin-right: auto;
+  flex-grow: 1;
+}
+
+.place-img {
+  width: 200px;
+  margin-left: 80px;
+  margin-right: auto;
+}
+
+.place-line {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.duration-line {
+  padding: 30px 30px;
+  flex-grow: 1;
 }
