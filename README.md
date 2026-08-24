@@ -22,3 +22,13 @@ To Do:
 - [x] Render lists using .map()
 - [x] Use the key prop
 - [x] Pass objects through props
+
+##### Task 3: React State, Events, and Forms
+
+To Do:
+- [ ] Create interactive components
+- [ ] Use useState
+- [ ] Handle user events
+- [ ] Create a simple form
+- [ ] Update UI based on state
+- [ ] Practise conditional rendering
