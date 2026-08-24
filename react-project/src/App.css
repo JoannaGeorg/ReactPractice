@@ -8,7 +8,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
 
   max-width: 800px;
 
@@ -34,19 +33,29 @@ body {
 .journel-container {
   display: flex;
   max-width: 800px;
-  background-color: beige;
+  background-color: rgb(243, 235, 239);
 
-  padding: 20px 0px;
+  padding-top: 60px;
 
   margin-left: auto;
   margin-right: auto;
   flex-grow: 1;
 }
 
+.place-img-container {
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  flex-shrink: 0;
+
+  margin-left: 60px;
+}
+
 .place-img {
-  width: 200px;
-  margin-left: 80px;
-  margin-right: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .place-line {
@@ -57,4 +66,9 @@ body {
 .duration-line {
   padding: 30px 30px;
   flex-grow: 1;
+}
+
+.marker-img {
+  width: 15px;
+  margin-left: 10px;
 }

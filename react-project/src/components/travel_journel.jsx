@@ -3,7 +3,7 @@ import markerImage from '../assets/Marker.png'
 export default function TravelJournel({ image, country, title, googleMapsLink, dates, text }) {
   return (
     <article className='journel-container'>
-      <div>
+      <div className='place-img-container'>
         <img className='place-img' src={image} />
       </div>
       <div>
