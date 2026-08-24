@@ -16,7 +16,7 @@ To Do:
 ##### Task 2: Props, Lists & Reusable Components
 
 To Do:
-- [ ] Build the Travel Journal project
+- [x] Build the Travel Journal project
 - [x] Create reusable components
 - [x] Pass data using props
 - [x] Render lists using .map()
