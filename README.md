@@ -26,9 +26,9 @@ To Do:
 ##### Task 3: React State, Events, and Forms
 
 To Do:
-- [ ] Create interactive components
-- [ ] Use useState
-- [ ] Handle user events
-- [ ] Create a simple form
-- [ ] Update UI based on state
-- [ ] Practise conditional rendering
+- [x] Create interactive components
+- [x] Use useState
+- [x] Handle user events
+- [x] Create a simple form
+- [x] Update UI based on state
+- [x] Practise conditional rendering
