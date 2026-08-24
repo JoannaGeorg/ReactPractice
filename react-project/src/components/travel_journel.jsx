@@ -1,10 +1,19 @@
-export default function TravelJournel({ place, image, duration, description }) {
+import markerImage from '../assets/Marker.png'
+
+export default function TravelJournel({ image, country, title, googleMapsLink, dates, text }) {
   return (
-    <p className='journel-container'>
-      <img src={image} className='place-img' />
-      <uli className='place-line'>{place}</uli>
-      <p className='duration-line'>{duration}</p>
-      <p className='description-line'>{description}</p>
-    </p>
+    <article className='journel-container'>
+      <div>
+        <img className='place-img' src={image} />
+      </div>
+      <div>
+        <img className="marker-img" src={markerImage} />
+        <span className='country-label' >{country}</span>
+        <a href={googleMapsLink}>View on Google Maps</a>
+        <h3>{title}</h3>
+        <h5>{dates}</h5>
+        <p>{text}</p>
+      </div>
+    </article>
   )
 }

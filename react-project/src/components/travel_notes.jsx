@@ -6,10 +6,13 @@ export default function TravelNotes ({ travelNotes }) {
       {travelNotes.map((travelNote) => {
         return (
           <TravelJournel 
-            place={travelNote.place}
-            image={travelNote.image}
-            duration={travelNote.duration}
-            description={travelNote.description}
+            image={travelNote.img.src}
+            country={travelNote.country}
+            title={travelNote.title}
+            googleMapsLink={travelNote.googleMapsLink}
+            dates={travelNote.dates}
+            text={travelNote.text}
+            key={travelNote.id}
           />
         )
       })}
