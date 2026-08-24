@@ -12,3 +12,13 @@ To Do:
 - [x] Create parent/child components
 - [x] Apply styling
 - [x] Organize the project
+
+##### Task 2: Props, Lists & Reusable Components
+
+To Do:
+- [x] Build the Travel Journal project
+- [x] Create reusable components
+- [x] Pass data using props
+- [x] Render lists using .map()
+- [x] Use the key prop
+- [x] Pass objects through props
