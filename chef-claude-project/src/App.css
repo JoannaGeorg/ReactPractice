@@ -1,11 +1,12 @@
 body {
   font-family: Garamond;
+  background-color: lavender;
 }
 
 .header-container {
   display: flex;
 
-  background-color: cornsilk;
+  background-color: white;
   align-items: center;
 
   max-width: 1400px;
