@@ -34,7 +34,7 @@ export default function Form() {
       </form>
       <PrintIngredientsList ingredients={ingredientsList} />
       
-      {(ingredientsList.length != 0) && <ReadyForRecipe />}
+      {(ingredientsList.length >= 4) && <ReadyForRecipe />}
     </>
   )
 }
