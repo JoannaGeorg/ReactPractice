@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Header from './components/header'
 import Form from './components/form'
-import ReadyForRecipe from './components/recipe'
 import './App.css'
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
     <>
       <Header />
       <Form />
-      <ReadyForRecipe />
     </>
   )
 }

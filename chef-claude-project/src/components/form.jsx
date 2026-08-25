@@ -1,5 +1,6 @@
 import React from "react"
 import PrintIngredientsList from "./print_ingredients"
+import ReadyForRecipe from "./recipe"
 
 function addIngredient() {
   console.log('clicking')
@@ -32,6 +33,8 @@ export default function Form() {
         <button className="add-button" onClick={addIngredient}>+ Add Ingredient</button>
       </form>
       <PrintIngredientsList ingredients={ingredientsList} />
+      
+      {(ingredientsList.length != 0) && <ReadyForRecipe />}
     </>
   )
 }
