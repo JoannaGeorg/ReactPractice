@@ -32,3 +32,12 @@ To Do:
 - [x] Create a simple form
 - [x] Update UI based on state
 - [x] Practise conditional rendering
+
+##### Task 4: React API Integration and Node.js Integration
+
+To Do:
+-[ ] Make an API request from React
+-[ ] Fetch data from the Node.js/Express API developed in Week 4
+-[ ] Display API data in React
+-[ ] Handle basic loading/error states
+-[ ] Connect React frontend with Node.js backend
