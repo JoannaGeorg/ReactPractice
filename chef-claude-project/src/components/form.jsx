@@ -8,9 +8,7 @@ function addIngredient() {
 export default function Form() {
   const [ingredientsList, setIngredientsList] = React.useState([])
 
-  function submitForm(event) {
-    event.preventDefault()
-    const formData = new FormData(event.currentTarget)
+  function submitForm(formData) {
     const newIngredient = formData.get('Ingredient')
     setIngredientsList(prevIngrdientsList => [
       ...prevIngrdientsList,
@@ -23,7 +21,7 @@ export default function Form() {
   
   return (
     <>
-      <form className="form-container" onSubmit={submitForm} >
+      <form className="form-container" action={submitForm} >
         <input 
           className="ingredient-input"
           placeholder="e.g. oregano"
