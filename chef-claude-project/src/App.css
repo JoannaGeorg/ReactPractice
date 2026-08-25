@@ -1,0 +1,96 @@
+body {
+  font-family: Garamond;
+  background-color: whitesmoke;
+}
+
+.header-container {
+  display: flex;
+
+  background-color: white;
+  align-items: center;
+
+  max-width: 1400px;
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-shadow: 0px 5px 5px lightgray;
+}
+
+.page-icon {
+  width: 30px;
+  margin-left: auto;
+  padding-right: 3px;
+}
+
+.page-title {
+  font-size: 40px;
+  color: darkslategray;
+  letter-spacing: 1px;
+  padding: 25px;
+
+  margin-right: auto;
+}
+
+.form-container {
+  display: flex;
+  align-content: center;
+  padding: auto 20px;
+
+  max-width: 700px;
+  min-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+}
+
+.ingredient-input {
+  height: 35px;
+  font-family: Garamond;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: lightgrey;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  margin-left: auto;
+  margin-right: 15px;
+  flex-grow: 1;
+}
+
+.add-button {
+  height: 40px;
+  color: white;
+  font-family: Garamond;
+  font-size: 20px;
+  background-color: darkslategrey;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 5px;
+  border-style: solid;
+
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.ingredient-list-container {
+  
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+.ingredients-title {
+  color: darkslategray;
+}
+
+.ingredient-list {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 50px;
+}
