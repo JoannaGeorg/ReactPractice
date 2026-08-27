@@ -36,7 +36,7 @@ To Do:
 ##### Task 4: React API Integration and Node.js Integration
 
 To Do:
--[ ] Make an API request from React
+-[x] Make an API request from React
 -[ ] Fetch data from the Node.js/Express API developed in Week 4
 -[ ] Display API data in React
 -[ ] Handle basic loading/error states
