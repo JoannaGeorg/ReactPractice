@@ -9,12 +9,12 @@ export default async function genRecipeFromAI(ingredientList) {
   
   try {
     const response = await hf_token.chatCompletion({
-      model: 'Qwen/Qwen2.5-7B-Instruct',
+      model: 'zai-org/GLM-5.3-Flash',
       messages: [
         {role: 'system', content: SYSTEM_PROMPT},
         {role: 'user', content: `I have ${ingredientList}. Please give me a recipe you'd recommend I make.`}
       ],
-      provider: 'hf-inference',
+      // provider: 'hf-inference',
       max_tokens: 1024,
     })
     return response.choices[0].message.content;

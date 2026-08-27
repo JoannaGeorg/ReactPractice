@@ -1,25 +1,34 @@
 import React from "react"
 import genRecipeFromAI from "./gen_recipe"
 
-function GenRecipe({ingredients}) {
-  const ingredientList = ingredients.map((ingredient) => {
-    return ingredient.name
-  })
-  const ingredientsString = ingredientList.join(', ')
-  const response = genRecipeFromAI(ingredientsString)
-  return (
-    <div className="recipe-container">
-      <h2 className="recipe-title">Suggested Recipe:</h2>
-      {response}
-    </div>
-  )
-}
+// function GenRecipe({ingredients}) {
+//   const ingredientList = ingredients.map((ingredient) => {
+//     return ingredient.name
+//   })
+//   const ingredientsString = ingredientList.join(', ')
+  
+//   async function getResponse(ingredientString) {
+//     const recipeMarkDown = await genRecipeFromAI(ingredientsString)
+//   }
+//   return (
+//     <div className="recipe-container">
+//       <h2 className="recipe-title">Suggested Recipe:</h2>
+//       {response}
+//     </div>
+//   )
+// }
 
 export default function ReadyForRecipe({ ingredients }) {
   const [gotRecipe, setGotRecipe] = React.useState(false)
 
-  function genRecipe() {
-    setGotRecipe((prevValue) => !prevValue)
+  async function genRecipe() {
+    const ingredientList = ingredients.map((ingredient) => {
+      return ingredient.name
+    })
+    const ingredientString = ingredientList.join(', ')
+
+    const recipeMarkdown = await genRecipeFromAI(ingredientString)
+    console.log(recipeMarkdown)
   }
 
   if (!gotRecipe) {
@@ -33,6 +42,8 @@ export default function ReadyForRecipe({ ingredients }) {
       </>
   )}
   return (
-    <GenRecipe ingredients={ingredients}/>
+    <div className="recipe-container">
+      <h2 className="recipe-title">Suggested Recipe:</h2>
+    </div>
   )
 }
