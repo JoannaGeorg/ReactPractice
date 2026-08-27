@@ -38,6 +38,6 @@ To Do:
 To Do:
 -[x] Make an API request from React
 -[ ] Fetch data from the Node.js/Express API developed in Week 4
--[ ] Display API data in React
--[ ] Handle basic loading/error states
+-[x] Display API data in React
+-[x] Handle basic loading/error states
 -[ ] Connect React frontend with Node.js backend
